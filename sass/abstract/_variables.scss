@@ -10,10 +10,12 @@ $bp-smallest: 28.75em; // 460px
 // =================================================================
 
 :root {
-  --color-black: #000;
+  --color-black: #222;
 
   --color-white: #ffffff;
-  --color-white-dark: rgba(255, 255, 255, 0.5);
+  --color-white-dark: #ffffff80;
 
   --color-grey: #a3a3a3;
+
+  --color-blue: #0c5cc4cc;
 }

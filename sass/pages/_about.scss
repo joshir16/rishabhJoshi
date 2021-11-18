@@ -44,14 +44,20 @@
       letter-spacing: 0.3rem;
       line-height: 1.8;
 
+      color: var(--color-grey);
+
       @media only screen and (max-width: $bp-large) {
         max-width: 60rem;
       }
 
       @media only screen and (max-width: $bp-medium) {
-        max-width: 75%;
+        max-width: 85%;
         text-align: center;
         height: auto;
+      }
+
+      & span {
+        color: #fff;
       }
     }
 
@@ -70,7 +76,7 @@
       }
 
       @media only screen and (max-width: $bp-medium) {
-        max-width: 70%;
+        max-width: 85%;
         width: 100%;
         // max-height: 90rem;
       }
@@ -83,7 +89,6 @@
 
     padding: 0 5rem;
 
-    opacity: 0.3;
     border-top: 1px solid var(--color-white-dark);
 
     @media only screen and (max-width: $bp-medium) {
