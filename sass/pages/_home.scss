@@ -1,0 +1,12 @@
+/** @format */
+
+.logo {
+  position: fixed;
+  top: 3rem;
+  left: 5rem;
+
+  visibility: hidden;
+  opacity: 0;
+
+  animation: displayText 0.2s 1.5s ease-in-out forwards;
+}

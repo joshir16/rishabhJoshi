@@ -1,0 +1,98 @@
+/** @format */
+
+@keyframes imgBox {
+  0% {
+    width: 3px;
+    height: 0;
+    background-color: var(--color-white);
+  }
+  10% {
+    width: 3px;
+    height: 5rem;
+    background-color: var(--color-white);
+  }
+  20% {
+    width: 3px;
+    height: 10rem;
+    background-color: var(--color-white);
+  }
+  30% {
+    width: 3px;
+    height: 20rem;
+    background-color: var(--color-white);
+  }
+  50% {
+    width: 3px;
+    height: 40rem;
+    background-color: var(--color-white);
+  }
+  75% {
+    width: 35rem;
+    height: 40rem;
+    background-color: var(--color-white);
+  }
+  100% {
+    width: 35rem;
+    height: 40rem;
+    background-color: var(--color-white);
+  }
+}
+
+// ===============================================
+// rotate img 2
+
+@keyframes rotateImg2 {
+  0% {
+    transform: rotate(0);
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(10deg);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+// rotate img 2
+
+@keyframes rotateImg3 {
+  0% {
+    transform: rotate(0);
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(20deg);
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+// =============================================
+// display img
+
+@keyframes displayImgs {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+// ===============================================
+// display img
+
+@keyframes displayText {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
